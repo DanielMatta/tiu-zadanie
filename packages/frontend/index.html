@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles/style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>todo</title>
+  </head>
+  <body>
+    <header>
+      <h1>ToDo</h1>
+    </header>
+    <main>
+      <form id="new_task_form">
+        <input
+          id="new_task_input"
+          type="text"
+          placeholder="Clean the dishes..."
+          maxlength="20"
+        />
+        <button type="submit">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+      </form>
+      <ul id="todolist"></ul>
+      <button class="taskSort">Sort</button>
+    </main>
+
+    <footer>
+      <a class="hyper" href="contact.html">Contact</a>
+      <p>Designed by CssHustlers</p>
+      <a class="hyper" href="history.html">history</a>
+    </footer>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
